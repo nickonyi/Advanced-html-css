@@ -7,3 +7,19 @@
 .rotate-by-turn {
   transform: rotate(0.9turn);
 }
+
+/* -------------Scale da ting-----------------*/
+.scaleX {
+  transform: scaleX(0.25);
+}
+
+.scaleY {
+  transform: scaleY(0.25);
+}
+
+.scaleXY {
+  transform: scale(0.25, 1.5);
+}
+.scale {
+  transform: scale(0.5);
+}
