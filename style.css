@@ -70,3 +70,20 @@ div,
 .translateXY {
   transform: translate(20px, -33%);
 }
+
+.red-box,
+.blue-box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.red-box {
+  background-color: red;
+  transform: rotate(45deg) translate(300%);
+}
+
+.blue-box {
+  background-color: blue;
+  transform: translate(200%) rotate(45deg);
+}
