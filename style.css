@@ -85,5 +85,5 @@ div,
 
 .blue-box {
   background-color: blue;
-  transform: translate(200%) rotate(45deg);
+  transform: perspective(800px) rotateX(45deg);
 }
