@@ -80,7 +80,7 @@ div,
 
 .red-box {
   background-color: red;
-  transform: rotate(45deg) translate(300%);
+  transform: rotate(45deg) translate(200%);
 }
 
 .blue-box {
