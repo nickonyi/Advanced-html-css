@@ -83,7 +83,14 @@ div,
   transform: rotate(45deg) translate(200%);
 }
 
+.blue-box-wrapper {
+  background-color: grey;
+}
 .blue-box {
   background-color: blue;
-  transform: perspective(800px) rotateX(45deg);
+  transition: transform 1s 0.5s;
+}
+
+.blue-box:hover {
+  transform: rotate(270deg);
 }
